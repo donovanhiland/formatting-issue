@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "node_modules/.bin/prettier-eslint './Example.js' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donovanhiland/formatting-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donovanhiland/formatting-issue/issues"
+  },
+  "homepage": "https://github.com/donovanhiland/formatting-issue#readme",
+  "dependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-kentcdodds": "^12.4.2",
+    "prettier-eslint-cli": "^4.2.1"
+  }
+}
