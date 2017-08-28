@@ -1,6 +1,6 @@
 import React from 'react'
 
-const iconPaths = ['']
+const iconPaths = { example: [''] }
 
 const Icon = props => {
   return (
