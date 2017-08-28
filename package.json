@@ -2,10 +2,11 @@
   "name": "y",
   "version": "1.0.0",
   "description": "",
-  "main": ".eslintrc.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "node_modules/.bin/prettier-eslint './Example.js' --write"
+    "format": "node_modules/.bin/prettier-eslint './Example.js' --write --log-level trace",
+    "lint": "eslint . --fix"
   },
   "repository": {
     "type": "git",

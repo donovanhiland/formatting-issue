@@ -1,6 +1,6 @@
 import React from 'react'
 
-const iconPaths = { example: [''] }
+const iconPaths = ['']
 
 const Icon = props => {
   return (
@@ -8,7 +8,7 @@ const Icon = props => {
       viewBox="0 0 20 20"
       {...props}
     >
-      {iconPaths.example.map((path, index) => (
+      {iconPaths.map((path, index) => (
         <path
           key={index}
           d={path}
