@@ -8,7 +8,7 @@ const Icon = props => {
       viewBox="0 0 20 20"
       {...props}
     >
-      {iconPaths[name].map((path, index) => (
+      {iconPaths.example.map((path, index) => (
         <path
           key={index}
           d={path}
